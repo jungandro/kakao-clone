@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box_01 {
+        background-color: #76c4c6;
+        height: 500px;
+        width: 500px;
+        display: flex;
+        /* padding: 10px; */
+        justify-content: center;
+        align-items: center;
+      }
+      .box_01__middle {
+        /* background-color: red; */
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: 0.5s box_01_ani infinite ease-in-out;
+      }
+      .box_01__child {
+        background-color: white;
+        border-radius: 5px;
+        width: 10px;
+        height: 10px;
+        margin: 10px;
+      }
+      @keyframes box_01_ani {
+        0% {
+          transform: none;
+        }
+        50% {
+          transform: none;
+        }
+        100% {
+          transform: rotate(0.5turn);
+        }
+      }
+      .box_02 {
+        background-color: #1eac9c;
+        height: 500px;
+        width: 500px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .box_02__child1 {
+        background-color: white;
+        border-radius: 1px;
+        width: 15px;
+        height: 50px;
+        margin: 3px;
+        animation: 0.5s box_02_ani infinite ease-in-out;
+        animation-delay: 0s;
+      }
+      .box_02__child2 {
+        background-color: white;
+        border-radius: 1px;
+        width: 15px;
+        height: 50px;
+        margin: 3px;
+        animation: 0.5s box_02_ani infinite ease-in-out;
+        animation-delay: 0.1s;
+      }
+      .box_02__child3 {
+        background-color: white;
+        border-radius: 1px;
+        width: 15px;
+        height: 50px;
+        margin: 3px;
+        animation: 0.5s box_02_ani infinite ease-in-out;
+        animation-delay: 0.2s;
+      }
+      .box_02__child4 {
+        background-color: white;
+        border-radius: 1px;
+        width: 15px;
+        height: 50px;
+        margin: 3px;
+        animation: 0.5s box_02_ani infinite ease-in-out;
+        animation-delay: 0.3s;
+      }
+      .box_02__child5 {
+        background-color: white;
+        border-radius: 1px;
+        width: 15px;
+        height: 50px;
+        margin: 3px;
+        animation: 0.5s box_02_ani infinite ease-in-out;
+        animation-delay: 0.4s;
+      }
+      @keyframes box_02_ani {
+        0% {
+          transform: none;
+        }
+        50% {
+          transform: scaleY(2);
+        }
+        100% {
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box_01">
+      <div class="box_01__middle">
+        <div class="box_01__child"></div>
+        <div class="box_01__child"></div>
+        <div class="box_01__child"></div>
+      </div>
+    </div>
+    <div class="box_02">
+      <spam class="box_02__child1"></spam>
+      <spam class="box_02__child2"></spam>
+      <spam class="box_02__child3"></spam>
+      <spam class="box_02__child4"></spam>
+      <spam class="box_02__child5"></spam>
+    </div>
+  </body>
+</html>
