@@ -69,27 +69,25 @@ main {
   text-align: right;
   margin-top: 15px;
 }
+.fa-square {
+  font-size: 12px;
+}
+.fa-check {
+  font-size: 10px;
+  color: red;
+  position: relative;
+  left: -10px;
+}
 .s2-remember {
   margin: 20px 0px 0px 0px;
-}
-.remember-me {
-  margin-left: 5px;
-}
-/* .section-3 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
+}
 .s3-standard {
-  /* text-decoration: none; */
   color: white;
   background-color: rgba(106, 117, 255, 1);
-  /* width: 50px; */
   text-align: center;
-  /* padding: 10px 0px; */
   border-radius: 20px;
   font-size: 5px;
-
   margin: 20px 0px 20px 0px;
 }
 .s3__signin {
@@ -126,4 +124,5 @@ main {
 
 .section-4 {
   margin-top: 10px;
+  line-height: 15px;
 }
